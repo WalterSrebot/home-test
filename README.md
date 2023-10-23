@@ -1,3 +1,28 @@
+**Challenge test completion**
+
+To run the tests you will need to:
+
+1. Pull the docker image containing the web app
+`docker pull automaticbytes/demo-app`
+
+2. Run the image
+`docker run -p 3100:3100 automaticbytes/demo-app`
+
+4. Verify the app is shown in below url
+`http://localhost:3100`
+
+5. Install the Selenium IDE plugin for either firefox or chrome
+   
+7. Download the test suite file
+`QU-Test.side`
+
+8. Run Selenium IDE plugin from the browser of choice, when prompted select to open an existing project and select the test file.
+
+9. Run the test suite
+`Ctrl+Shift+R`
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #**App Automation Test**
 
 ## Must have before start
